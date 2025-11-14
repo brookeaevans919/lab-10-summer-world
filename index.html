@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Summer World - Beach Scene with Sandcastle</title>
+    <title>Summer World - Beach Scene</title>
     <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
 </head>
 <body>
@@ -21,7 +21,7 @@
         <!-- Rotating Ice Cream Cone -->
         <a-entity position="0 0.5 -2">
             <a-cone position="0 0.3 0" radius-bottom="0.05" radius-top="0.1" height="0.3" material="src: #cone"></a-cone>
-            <a-cylinder position="0 0 0" radius="0.05" height="0.4" material="src: #icecream"></a-cylinder>
+            <a-sphere position="0 0 0" radius="0.05" height="0.4" material="src: #icecream"></a-sphere>
             <a-animation attribute="rotation"
                           dur="5000"
                           easing="linear"
@@ -34,7 +34,7 @@
         <!-- Sandcastle -->
         <a-entity id="sandcastle" position="0 0 -1">
             <!-- Base -->
-            <a-cylinder position="0 0 0" radius="0.5" height="0.6" material="src: #sand"></a-cylinder>
+            <a-cylinder position="0 0 0" radius="0.5" height="0.8" material="src: #sand"></a-cylinder>
             
             <!-- Left Tower -->
             <a-cylinder position="-0.4 0.8 0" radius="0.15" height="1.0" material="src: #sand"></a-cylinder>
